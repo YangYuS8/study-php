@@ -1,0 +1,8 @@
+p {
+  /* 为段落标记P定义样式，使用多个样式层叠 */
+  font-size: 30px; /* 设置段落中的字体号为30个像素 */
+  color: yellow; /* 设置段落中的字体颜色为黄色 */
+  border: 2px solid blue; /* 设置段落边框为蓝色2个像素宽 */
+  text-align: center; /* 设置段落中的字体居中 */
+  background: green; /* 设置段落的背景色为绿色 */
+}

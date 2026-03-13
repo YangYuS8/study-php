@@ -1,0 +1,26 @@
+<head>标记内容不显示在网页中
+
+	<head>的
+		<meta>标记定义页面中的一些信息，这些信息不会出现在网页中。
+		1.http-equiv和content
+		<meta http-equiv="参数" content="参数变量值">
+		参数：content-type 规定文档的字符编码。
+		refresh 定义文档自动刷新的时间间隔。慎重使用
+		Expires 设定网页的到期时间。
+		2.name="renderer"和content=浏览器内核类型：ie-comp:IE兼容模式IE6/7/8；ie-stand:IE标准模式IE9
+		3.name="keywords"：关键字，让搜索引擎更准确地发现你。
+		4.name="description"：对网页内容的描述，最好每个网页有自己相应的描述。
+		5.name="robots"和content
+		content中的值决定允许抓取的类型，必须同时包含两个值：是否允许索引（index）和是否跟踪链接（follow，也可以理解为是否允许沿着网页中的超级链接继续抓取）。共有4个参数可选，组成4个组合：
+		1）index,follow：允许抓取本页，允许跟踪链接。
+		2）index,nofollow：允许抓取本页，但禁止跟踪链接。
+		3）noindex,follow：禁止抓取本页，但允许跟踪链接。
+		4）noindex,nofllow：禁止抓取本页，同时禁止跟踪本页中的链接。
+		6.name="application-name" 当前Web应用程序的名字(当网站作为一个应用程序的时候)
+		7.
+		<base url="基url">：基底网址
+		8.
+		<link rel="shortcut icon" href="图片地址">为网页标题加图标
+		<link rel="icon" href="图片地址" type="image/gif" /> 为网页标题加图标(现在更常用)
+		type可以设置多种图片类型。如：gif/png/ico
+		一般的图标尺寸都是16px*16px
