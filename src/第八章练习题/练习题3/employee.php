@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "root", "stu");
+$conn = mysqli_connect("db", "root", "root", "stu");
 
 if (!$conn) {
     die("数据库连接失败：" . mysqli_connect_error());
