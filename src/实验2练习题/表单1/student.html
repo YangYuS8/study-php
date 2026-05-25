@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>学生个人信息输入</title>
+</head>
+<body>
+    <h2 align="center">学生个人信息表</h2>
+
+    <form action="student.php" method="post">
+        <table border="1" align="center" cellpadding="8" cellspacing="0">
+            <tr>
+                <td>学号：</td>
+                <td><input type="text" name="xuehao"></td>
+            </tr>
+            <tr>
+                <td>姓名：</td>
+                <td><input type="text" name="xingming"></td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="xingbie" value="男" checked>男
+                    <input type="radio" name="xingbie" value="女">女
+                </td>
+            </tr>
+            <tr>
+                <td>出生日期：</td>
+                <td><input type="date" name="shengri"></td>
+            </tr>
+            <tr>
+                <td>所学专业：</td>
+                <td>
+                    <select name="zhuanye">
+                        <option value="计算机应用技术">计算机应用技术</option>
+                        <option value="软件技术">软件技术</option>
+                        <option value="大数据技术">大数据技术</option>
+                        <option value="网络工程">网络工程</option>
+                    </select>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="submit" value="提交">
+                    <input type="reset" value="重置">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
